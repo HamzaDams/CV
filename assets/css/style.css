@@ -83,22 +83,15 @@ body {
     margin-right: 5%;
     text-align: right;
 }
-.contact {
-    text-align: rig;
-}
-.contactImg {
-    display: flex;
-    width: 24px;
-    
-}
+
 .title {
     color: #111;   
     text-transform: uppercase;
     position:relative;
     display:inline-block;
     text-align: center;
-
 }
+
 .title::after {
     content:'';
     position:absolute;
@@ -198,6 +191,51 @@ body {
     margin-right: 10px;
     color:white;
     background-color: #111;
+}
+
+@media (max-device-width : 1052px) {
+    .sidenav {
+        display: none;
+    }
+    .container {
+        margin: 10px;
+    }
+    .competence {
+        padding: 5px;
+        display: box;
+    }
+    .element {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .header {
+        padding: 20px;
+    display: grid;
+    }
+    .title {
+        color: #111;   
+        text-transform: uppercase;
+        position:relative;
+        display:grid;
+        grid-template-columns: auto;
+
+    }
+    .titleFormation {
+        text-transform: uppercase;
+        position:relative;
+        display:grid;
+        grid-template-columns: auto;
+    }
+
+    .elementFormation {
+        text-transform: uppercase;
+        position:relative;
+        display:grid;
+        grid-template-columns: auto;
+    }
+
+   
 }
 
 @media (max-device-width : 1052px) {
