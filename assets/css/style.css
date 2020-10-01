@@ -1,3 +1,130 @@
+* {
+    font-family: 'Prompt', sans-serif;
+    box-sizing: border-box;
+}
+
 body {
     background: #ecf0f1;
 }
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    
+    background: linear-gradient(0deg, rgba(57,100,190,1) 0%, rgba(0,142,255,1) 100%);
+    box-shadow: inset -14px 1px 13px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.sidenav .avatar {
+    padding: 15px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transition: all .3s;
+}
+
+.header {
+    margin-right: 5%;
+    text-align: right;
+}
+.contact {
+    text-align: rig;
+}
+.contactImg {
+    display: flex;
+    width: 24px;
+    
+}
+.title {
+    color: #111;   
+    text-transform: uppercase;
+    position:relative;
+    display:inline-block;
+    text-align: center;
+
+}
+.title::after {
+    content:'';
+    position:absolute;
+    right:0;
+    top:100%;
+    margin: 10px auto;
+    width:50%;
+    height:6px;
+    background:#eb2f06;
+}
+
+.container{
+    margin-left: 15%;
+    margin-right: 25%;
+    margin-top: -12%;
+    z-index: 2;
+    width: 100%;
+    padding: 15px;
+}
+
+.titleFormation {
+    text-transform: uppercase;
+    position:relative;
+    display:inline-block;
+}
+
+.titleFormation::after {
+    content:'';
+    position:absolute;
+    left:0;
+    top:100%;
+    margin: 10px auto;
+    width:50%;
+    height:6px;
+    background:#eb2f06;
+}
+
+.titleExperience {
+    text-transform: uppercase;
+    position:relative;
+    display:inline-block;
+}
+
+.titleExperience::after {
+    content:'';
+    position:absolute;
+    left:0;
+    top:100%;
+    margin: 10px auto;
+    width:50%;
+    height:6px;
+    background:#eb2f06;
+}
+
+@media (max-device-width : 1052px) {
+    .sidenav {
+        display: none;
+    }
+}
+  
