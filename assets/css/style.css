@@ -1,7 +1,28 @@
 * {
     font-family: 'Prompt', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff00; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff00; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff00; 
+  }
 
 ul{
     list-style-type: "- ";
@@ -94,7 +115,7 @@ body {
     margin-right: 25%;
     margin-top: -12%;
     z-index: 2;
-    width: 100%;
+    width: 85%;
     padding: 15px;
 }
 
@@ -141,7 +162,7 @@ body {
 .element {
     padding: 20px;
     display: grid;
-    grid-template-columns: auto 40%;  
+    grid-template-columns: auto 30%;
 }
 .element:hover{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -173,6 +194,11 @@ body {
     justify-self: center;
 }
 
+.titleLogiciel {
+    margin-right: 10px;
+    color:white;
+    background-color: #111;
+}
 
 @media (max-device-width : 1052px) {
     .sidenav {
