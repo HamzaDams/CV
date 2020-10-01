@@ -3,6 +3,15 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style-type: "- ";
+    font-weight: 300;
+    font-style: italic;
+  }
+ul li::before {
+    font-weight: bold;
+}
+
 body {
     background: #ecf0f1;
 }
@@ -121,6 +130,19 @@ body {
     height:6px;
     background:#eb2f06;
 }
+
+.titleElement {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.element {
+    display: grid;
+    grid-template-columns: auto 40%;
+}
+
+
 
 @media (max-device-width : 1052px) {
     .sidenav {
