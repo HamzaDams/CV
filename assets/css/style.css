@@ -174,10 +174,24 @@ body {
     display: grid;
 }
 
-.item {
+.item1 {
     align-self: center;
     justify-self: center;
     margin-bottom: 8px;
+}
+.item2 {
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 8px;
+}
+.item3 {
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 8px;
+}
+.item4 {
+    align-self: center;
+    justify-self: center;
 }
 
 .titleLogiciel {
