@@ -193,6 +193,14 @@ body {
     background-color: #111;
 }
 
+.nameLastName {
+    color: white;
+    margin-left: 25px;
+}
+
+.columnFormation {
+    margin-top: 50px;
+}
 
 @media (max-device-width : 1052px) {
 
