@@ -70,14 +70,10 @@ body {
     font-weight: bold;
     padding: 15px;
     text-align: center;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: #1B9CFC;
+    cursor: initial;
 }
 
-.sidenav a:hover {
-    color: #f1f1f1;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    transition: all .3s;
-}
 
 .header {
     margin-right: 5%;
@@ -195,7 +191,8 @@ body {
 
 .nameLastName {
     color: white;
-    margin-left: 25px;
+    /* margin-left: 25px; */
+    text-align: center;
 }
 
 .columnFormation {
